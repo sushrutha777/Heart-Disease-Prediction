@@ -33,7 +33,7 @@ The dataset consists of several attributes related to a patient's health, which 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/sushrutha777/Heart-Disease-Classification.git
+   git clone https://github.com/sushrutha777/Heart-Disease-Prediction.git
    cd Heart-Disease-Classification
 
 2. Create a new environment and install dependencies:
