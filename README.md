@@ -39,8 +39,8 @@ The dataset consists of several attributes related to a patient's health, which 
 2. Create a new environment and install dependencies:
 
    ```bash
-   conda create --prefix ./env python=3.12.3
-   conda activate ./env
+   conda create --prefix ./ml_env1 python=3.12.3
+   conda activate ./ml_env1
    conda install numpy pandas scikit-learn matplotlib seaborn
    ```
 
