@@ -26,8 +26,8 @@ The dataset consists of several attributes related to a patient's health, which 
 ## Models Used
 
 - **Logistic Regression**: Achieved 88% accuracy.
-- **K-Nearest Neighbors (KNN)**: Tested as an alternative model.
-- **Random Forest**: Another model evaluated for prediction.
+- **K-Nearest Neighbors (KNN)**: Achieved 63% accuracy 
+- **Random Forest**: Achieved 83% accuracy.
 
 ## Installation and Setup
 
