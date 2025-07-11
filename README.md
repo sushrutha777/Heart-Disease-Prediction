@@ -25,9 +25,13 @@ The dataset consists of several attributes related to a patient's health, which 
 
 ## Models Used
 
-- **Logistic Regression**: Achieved 88% accuracy.
-- **K-Nearest Neighbors (KNN)**: Achieved 63% accuracy 
-- **Random Forest**: Achieved 83% accuracy.
+- **Logistic Regression**: Achieved 86.89% accuracy.
+- **Random Forest**: Achieved 83.61% accuracy.
+- **LightGBM**: Achieved 83.61% accuracy.
+- **XGBoost**: Achieved 81.97% accuracy.
+- **Gradient Boosting**: Achieved 77.05% accuracy.
+- **Support Vector Machine (SVM)**: Achieved 70.49% accuracy.
+- **K-Nearest Neighbors (KNN)**: Achieved 68.85% accuracy.
 
 ## Installation and Setup
 
