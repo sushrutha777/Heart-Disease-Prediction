@@ -56,48 +56,7 @@ The dataset consists of several attributes related to a patient's health, which 
    model = pickle.load(f)
    ```
 
-## Make Predictions
-
-```python
-import pandas as pd
-
-# New patient data (example, replace with actual data)
-new_data = [[45, 1, 3, 130, 250, 0, 1, 1, 120, 0, 1, 2, 3]]
-
-# Convert to DataFrame with correct column names
-columns = ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 
-           'exang', 'oldpeak', 'slope', 'ca', 'thal']
-new_data_df = pd.DataFrame(new_data, columns=columns)
-
-# Make prediction
-prediction = model.predict(new_data_df)
-
-if prediction[0] == 1:
-    print("Heart Disease")
-else:
-    print("No Heart Disease")
-```
 ### Results
 
 - **Logistic Regression Accuracy**: 88%
-- **Other Models**: KNN and Random Forest were also tested but did not outperform Logistic Regression.
-
-### Future Work
-
-- **Hyperparameter Tuning**:  
-  Explore advanced techniques like Bayesian Optimization or Genetic Algorithms.  
-
-- **New Models**:  
-  Test SVM, XGBoost, LightGBM, and ensemble methods (e.g., stacking).  
-
-- **Feature Engineering**:  
-  Investigate feature interactions or polynomial features.  
-
-- **Cross-Validation**:  
-  Use stratified k-fold cross-validation for robust evaluation.  
-
-- **Deployment**:  
-  Build a REST API using Flask/Django for real-time predictions.  
-
-- **Interpretability**:  
-  Generate feature importance plots with SHAP or LIME.  
+- **Other Models**: KNN, Random Forest, Gradient Boosting, SVM, XGBoost, and LightGBM were also tested, but none outperformed Logistic Regression, which gave the highest accuracy after hyperparameter tuning. 
