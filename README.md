@@ -44,18 +44,6 @@ The dataset consists of several attributes related to a patient's health, which 
    conda install numpy pandas scikit-learn matplotlib seaborn
    ```
 
-## Model Usage, Results, and Future Work
-
-### Usage
-
-1. **Load the Model**:
-
-   ```python
-   import pickle
-   with open('gs_log_reg_model.pkl', 'rb') as f:
-   model = pickle.load(f)
-   ```
-
 ### Results
 
 - **Logistic Regression Accuracy**: 88%
